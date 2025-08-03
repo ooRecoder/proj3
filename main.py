@@ -1,5 +1,5 @@
 from util import SingleInstance
-from aplications import VVW
+from aplications import VVW, SystemScanner
 import sys
 from app import escolher_opcao
 
@@ -13,6 +13,8 @@ if __name__ == "__main__":
     opcao = escolher_opcao()
     if opcao == "1":
         VVW()
+    elif opcao == "2":
+        SystemScanner()
     else:
         print("Encerrando aplicação.")
         sys.exit(0)
