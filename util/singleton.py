@@ -1,7 +1,7 @@
 import sys
-import win32event
-import win32api
-import winerror
+import win32event # type: ignore
+import win32api # type: ignore
+import winerror # type: ignore
 
 class SingleInstance:
     """Evita múltiplas instâncias da aplicação no Windows."""

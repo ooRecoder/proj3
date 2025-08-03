@@ -1,5 +1,7 @@
 from util import SingleInstance
+from aplications import VVW
 import sys
+from app import escolher_opcao
 
 if __name__ == "__main__":
     instance = SingleInstance("Global\\MinhaAppUnica")
@@ -8,5 +10,9 @@ if __name__ == "__main__":
         print("A aplicação já está em execução.")
         sys.exit(0)
 
-    print("Aplicação iniciada. Nenhuma outra instância detectada.")
-    input("Pressione Enter para encerrar...")
+    opcao = escolher_opcao()
+    if opcao == "1":
+        VVW()
+    else:
+        print("Encerrando aplicação.")
+        sys.exit(0)
