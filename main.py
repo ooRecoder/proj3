@@ -16,7 +16,7 @@ if __name__ == "__main__":
     elif opcao == "2":
         SystemScanner()
     elif opcao == "3":
-        print("Comming Soon")
+        VerifyServices()
     else:
         print("Encerrando aplicação.")
         sys.exit(0)
