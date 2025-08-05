@@ -1,6 +1,4 @@
-import os
 from .services import scanner, report, oui_updater
-
 
 def NetworkScanner():
     print("===== Scanner de Rede Avançado =====\n")
