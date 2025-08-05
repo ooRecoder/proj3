@@ -1,5 +1,5 @@
 from util import SingleInstance
-from aplications import VVW, SystemScanner, AutoBKP
+from aplications import VVW, SystemScanner, AutoBKP, NetworkScanner
 import sys
 from app import escolher_opcao
 
@@ -17,6 +17,8 @@ if __name__ == "__main__":
         SystemScanner()
     elif opcao == "4":
         AutoBKP()
+    elif opcao == "5":
+        NetworkScanner()
     else:
         print("Encerrando aplicação.")
         sys.exit(0)
