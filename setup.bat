@@ -41,7 +41,7 @@ if errorlevel 1 (
 )
 
 echo ================================
-echo Instalando dependências...
+echo Instalando dependences...
 echo ================================
 
 REM Verifica se requirements.txt existe
