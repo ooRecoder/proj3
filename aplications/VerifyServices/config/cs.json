@@ -1,0 +1,35 @@
+{
+  "Rede": [
+    "LanmanServer",
+    "LanmanWorkstation",
+    "NlaSvc",
+    "Dhcp",
+    "Dnscache",
+    "lmhosts"
+  ],
+  "Sistema": [
+    "RpcSs",
+    "Winmgmt",
+    "TrustedInstaller",
+    "SecurityHealthService",
+    "PlugPlay",
+    "EventLog"
+  ],
+  "Security": [
+    "WinDefend",
+    "CryptSvc",
+    "Appinfo",
+    "sppsvc"
+  ],
+  "Tempo e Update": [
+    "W32Time",
+    "wuauserv",
+    "BITS"
+  ],
+  "Suporte e Utils": [
+    "Themes",
+    "AudioSrv",
+    "TermService",
+    "Spooler"
+  ]
+}
